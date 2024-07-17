@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +27,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240717064150_mig_1.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240717064150_mig_1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:41:51.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
@@ -56,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ECommerceAPIDbContext.cs",
               "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
@@ -64,12 +47,11 @@
               "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:20:31.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T06:20:31.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\Common\\BaseEntity.cs",
@@ -77,8 +59,7 @@
               "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\Common\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:14:02.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T06:14:02.342Z"
             }
           ]
         }
