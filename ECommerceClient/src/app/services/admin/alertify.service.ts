@@ -21,19 +21,19 @@ export class AlertifyService {
   }
 }
 export class AlertifyOptions{
-  messageType:MessageType = MessageType.Message;
-  position:Position = Position.BottomRight;
+  messageType:AlertifyMessageType = AlertifyMessageType.Message;
+  position:AlertifyPosition = AlertifyPosition.BottomRight;
   delay:number=3; 
   dismissOthers:boolean=false
 }
-export enum MessageType{
+export enum AlertifyMessageType{
   Error="error",
   Message="message",
   Notify="notify",
   Success="success",
   Warning="warning"
 }
-export enum Position{
+export enum AlertifyPosition{
   TopCenter="top-center",
   TopRight="top-right",
   TopLeft="top-left",
