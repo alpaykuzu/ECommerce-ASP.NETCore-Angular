@@ -1,6 +1,5 @@
 <div class="mat-elevation-z8">
   <table mat-table [dataSource]="dataSource">
-
     <!-- Name Column -->
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef>Name</th>
@@ -27,6 +26,30 @@
     <ng-container matColumnDef="updatedDate">
       <th mat-header-cell *matHeaderCellDef>Updated Date</th>
       <td mat-cell *matCellDef="let element">{{ element.updatedDate }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="edit">
+      <th mat-header-cell *matHeaderCellDef width="30px"></th>
+      <td mat-cell *matCellDef="let element">
+        <img
+          src="..\..\..\..\..\assets\edit.png"
+          alt=""
+          width="27px"
+          height="27px"
+        />
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="delete">
+      <th mat-header-cell *matHeaderCellDef width="30px"></th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        appDelete
+        [id]="element.id"
+        (callback)="getProducts()"
+        controller="products"
+      ></td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

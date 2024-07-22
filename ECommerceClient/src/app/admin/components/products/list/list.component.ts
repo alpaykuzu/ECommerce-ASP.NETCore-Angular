@@ -31,6 +31,8 @@ export class ListComponent extends BaseComponent implements OnInit {
     'price',
     'createdDate',
     'updatedDate',
+    'edit',
+    'delete'
   ];
   dataSource: MatTableDataSource<ListProduct> = null;
   @ViewChild(MatPaginator) paginator: MatPaginator;
@@ -55,6 +57,7 @@ export class ListComponent extends BaseComponent implements OnInit {
   async pageChanged(){
     await this.getProducts()
   }
+
 
   async ngOnInit() {
     this.getProducts();
