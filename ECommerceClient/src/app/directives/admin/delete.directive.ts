@@ -21,6 +21,7 @@ import {
   AlertifyService,
 } from 'src/app/services/admin/alertify.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { DialogService } from 'src/app/services/common/dialog.service';
 
 declare var $: any;
 
@@ -33,7 +34,7 @@ export class DeleteDirective {
     private _renderer: Renderer2,
     private httpClientService: HttpClientService,
     private spinner: NgxSpinnerService,
-    public dialog: MatDialog,
+    public dialogService: DialogService,
     private alertifyService: AlertifyService
   ) {
     const img = _renderer.createElement('img');
@@ -50,57 +51,51 @@ export class DeleteDirective {
 
   @HostListener('click')
   async onclick() {
-    this.openDialog(async () => {
-      this.spinner.show(SpinnerType.BallTrianglePath);
-      const td: HTMLTableCellElement = this.element.nativeElement;
-      this.httpClientService
-        .delete(
-          {
-            controller: this.controller,
-          },
-          this.id
-        )
-        .subscribe(
-          (data) => {
-            $(td.parentElement).animate(
-              {
-                opacity: 0,
-                left: '+=50',
-                height: 'tooggle',
-              },
-              500,
-              () => {
-                this.callback.emit();
-                this.alertifyService.message('Ürün başarıyla silinmiştir.', {
-                  dismissOthers: true,
-                  messageType: AlertifyMessageType.Success,
-                  position: AlertifyPosition.TopRight,
-                });
-              }
-            );
-          },
-          (errorResponse: HttpErrorResponse) => {
-            this.spinner.hide(SpinnerType.BallTrianglePath);
-            this.alertifyService.message('Ürün silinirken beklenmeyen bir hata oluştu.', {
-              dismissOthers: true,
-              messageType: AlertifyMessageType.Error,
-              position: AlertifyPosition.TopRight,
-            });
-          }
-        );
-    });
-  }
-
-  openDialog(afterClosed: any): void {
-    const dialogRef = this.dialog.open(DeleteDialogComponent, {
-      width: '250px',
+    this.dialogService.openDialog({
+      componentType: DeleteDialogComponent,
       data: DeleteState.Yes,
-    });
-
-    dialogRef.afterClosed().subscribe((result) => {
-      if (result == DeleteState.Yes) {
-        afterClosed();
-      }
+      afterClosed: async () => {
+        this.spinner.show(SpinnerType.BallTrianglePath);
+        const td: HTMLTableCellElement = this.element.nativeElement;
+        this.httpClientService
+          .delete(
+            {
+              controller: this.controller,
+            },
+            this.id
+          )
+          .subscribe(
+            (data) => {
+              $(td.parentElement).animate(
+                {
+                  opacity: 0,
+                  left: '+=50',
+                  height: 'tooggle',
+                },
+                500,
+                () => {
+                  this.callback.emit();
+                  this.alertifyService.message('Ürün başarıyla silinmiştir.', {
+                    dismissOthers: true,
+                    messageType: AlertifyMessageType.Success,
+                    position: AlertifyPosition.TopRight,
+                  });
+                }
+              );
+            },
+            (errorResponse: HttpErrorResponse) => {
+              this.spinner.hide(SpinnerType.BallTrianglePath);
+              this.alertifyService.message(
+                'Ürün silinirken beklenmeyen bir hata oluştu.',
+                {
+                  dismissOthers: true,
+                  messageType: AlertifyMessageType.Error,
+                  position: AlertifyPosition.TopRight,
+                }
+              );
+            }
+          );
+      },
     });
   }
 }

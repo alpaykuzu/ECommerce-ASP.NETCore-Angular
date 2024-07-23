@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "leoVSQbnpQCMnQK2KQBmXAolIIKBJYeS5oBx2V2Akto=",
+  "Hash": "h7c/Lmlp7daKgmUGWfN0cSjz/J1qWrOvzHmdRRv26Hw=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceAPI.API\\wwwroot",
+      "Source": "ECommerceAPI.API",
+      "ContentRoot": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "resouce/product-images/Ekran-goruntusu-2024-07-16-112150.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png"
+    }
+  ]
 }

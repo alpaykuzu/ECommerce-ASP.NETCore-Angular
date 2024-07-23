@@ -53,3 +53,4 @@ C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Pr
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.pdb
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.API.staticwebassets.runtime.json
