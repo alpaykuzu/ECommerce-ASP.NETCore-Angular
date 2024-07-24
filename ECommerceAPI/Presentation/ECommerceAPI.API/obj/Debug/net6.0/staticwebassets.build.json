@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h7c/Lmlp7daKgmUGWfN0cSjz/J1qWrOvzHmdRRv26Hw=",
+  "Hash": "Y2pelC1XazkPFz0tdn5YicpmQEnlSRnfjaiGhDLgLZI=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png",
+      "Identity": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resouce/product-images/Ekran-goruntusu-2024-07-16-112150.png",
+      "RelativePath": "resource/files/Ekran görüntüsü 2024-07-16 112150.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png"
+      "OriginalItemSpec": "wwwroot\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png"
+    },
+    {
+      "Identity": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-16-112150.png",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "resource/files/Ekran-goruntusu-2024-07-16-112150.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-16-112150.png"
+    },
+    {
+      "Identity": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-17-100121.png",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "resource/files/Ekran-goruntusu-2024-07-17-100121.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-17-100121.png"
     }
   ]
 }

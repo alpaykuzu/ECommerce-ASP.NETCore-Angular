@@ -1,8 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png",
-      "PackagePath": "staticwebassets\\resouce\\product-images\\Ekran-goruntusu-2024-07-16-112150.png"
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-16-112150.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Ekran-goruntusu-2024-07-16-112150.png"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran-goruntusu-2024-07-17-100121.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Ekran-goruntusu-2024-07-17-100121.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ECommerceAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -18,19 +18,24 @@ import {
   FileUploadDialogState,
 } from 'src/app/dialogs/file-upload-dialog/file-upload-dialog.component';
 import { DialogService } from '../dialog.service';
+import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-file-upload',
   templateUrl: './file-upload.component.html',
   styleUrls: ['./file-upload.component.scss'],
 })
-export class FileUploadComponent {
+export class FileUploadComponent extends BaseComponent{
   constructor(
     private httpClientService: HttpClientService,
     private alertifyService: AlertifyService,
     private toastrService: CustomToastrService,
-    private dialogService: DialogService
-  ) {}
+    private dialogService: DialogService,
+    spinner: NgxSpinnerService
+  ) {
+    super(spinner)
+  }
 
   public files: NgxFileDropEntry[];
   @Input() options: Partial<FileUploadOptions>;
@@ -50,6 +55,7 @@ export class FileUploadComponent {
       componentType: FileUploadDialogComponent,
       data: FileUploadDialogState.Yes,
       afterClosed: () => {
+        this.showSpinner(SpinnerType.BallTrianglePath)
         this.httpClientService
           .post(
             {
@@ -63,6 +69,7 @@ export class FileUploadComponent {
           .subscribe(
             (data) => {
               const message: string = 'Dosyalar başarıyla yüklendi.';
+              this.hideSpinner(SpinnerType.BallTrianglePath)
               if (this.options.isAdminPage) {
                 this.alertifyService.message(message, {
                   dismissOthers: true,
@@ -90,6 +97,8 @@ export class FileUploadComponent {
                   position: ToastrPosition.TopRight,
                 });
               }
+              this.hideSpinner(SpinnerType.BallTrianglePath)
+
             }
           );
       },

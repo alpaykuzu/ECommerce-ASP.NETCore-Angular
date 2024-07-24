@@ -54,3 +54,9 @@ C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Pr
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.pdb
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.API.staticwebassets.runtime.json
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.Memory.Data.dll

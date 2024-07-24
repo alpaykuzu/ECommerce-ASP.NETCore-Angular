@@ -43,6 +43,38 @@ namespace ECommerceAPI.Persistence.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Storage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("File");
+                });
+
             modelBuilder.Entity("ECommerceAPI.Domain.Entities.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -89,6 +121,9 @@ namespace ECommerceAPI.Persistence.Migrations
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
+                    b.Property<Guid?>("ProductImageFileId")
+                        .HasColumnType("uuid");
+
                     b.Property<int>("Stock")
                         .HasColumnType("integer");
 
@@ -96,6 +131,8 @@ namespace ECommerceAPI.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductImageFileId");
 
                     b.ToTable("Products");
                 });
@@ -115,6 +152,26 @@ namespace ECommerceAPI.Persistence.Migrations
                     b.ToTable("OrderProduct");
                 });
 
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.InvoiceFile", b =>
+                {
+                    b.HasBaseType("ECommerceAPI.Domain.Entities.File");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.HasDiscriminator().HasValue("InvoiceFile");
+                });
+
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.ProductImageFile", b =>
+                {
+                    b.HasBaseType("ECommerceAPI.Domain.Entities.File");
+
+                    b.Property<bool>("Showcase")
+                        .HasColumnType("boolean");
+
+                    b.HasDiscriminator().HasValue("ProductImageFile");
+                });
+
             modelBuilder.Entity("ECommerceAPI.Domain.Entities.Order", b =>
                 {
                     b.HasOne("ECommerceAPI.Domain.Entities.Customer", "Customer")
@@ -124,6 +181,13 @@ namespace ECommerceAPI.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.Product", b =>
+                {
+                    b.HasOne("ECommerceAPI.Domain.Entities.ProductImageFile", null)
+                        .WithMany("Products")
+                        .HasForeignKey("ProductImageFileId");
                 });
 
             modelBuilder.Entity("OrderProduct", b =>
@@ -144,6 +208,11 @@ namespace ECommerceAPI.Persistence.Migrations
             modelBuilder.Entity("ECommerceAPI.Domain.Entities.Customer", b =>
                 {
                     b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.ProductImageFile", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

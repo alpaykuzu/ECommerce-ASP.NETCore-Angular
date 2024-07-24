@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Application.Validators.Products
 {
-    public class CreateProductValidator : AbstractValidator<WM_Create_Product>
+    public class CreateProductValidator : AbstractValidator<VM_Create_Product>
     {
         public CreateProductValidator() 
         {

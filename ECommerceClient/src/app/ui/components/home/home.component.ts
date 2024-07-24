@@ -13,6 +13,6 @@ export class HomeComponent extends BaseComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.showSpinner(SpinnerType.BallTrianglePath)
+    this.showSpinner(SpinnerType.BallTrianglePath,500)
   }
 }
