@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\files\\Ekran-goruntusu-2024-07-25-085340.png",
+      "PackagePath": "staticwebassets\\files\\Ekran-goruntusu-2024-07-25-085340.png"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\photo-images\\Ekran-goruntusu-2024-07-16-112150.png",
+      "PackagePath": "staticwebassets\\photo-images\\Ekran-goruntusu-2024-07-16-112150.png"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\photo-images\\Ekran-goruntusu-2024-07-16-112151.png",
+      "PackagePath": "staticwebassets\\photo-images\\Ekran-goruntusu-2024-07-16-112151.png"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\photo-images\\Ekran-goruntusu-2024-07-17-100121.png",
+      "PackagePath": "staticwebassets\\photo-images\\Ekran-goruntusu-2024-07-17-100121.png"
+    },
+    {
       "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png",
       "PackagePath": "staticwebassets\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png"
     },

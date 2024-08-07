@@ -4,12 +4,14 @@ import { HttpClientService } from '../http-client.service';
 import { CreateProduct } from 'src/app/contracts/createProduct';
 import { HttpErrorResponse } from '@angular/common/http';
 import { firstValueFrom, Observable } from 'rxjs';
+import { ListProductImage } from 'src/app/contracts/listProductImage';
+import { AlertifyMessageType, AlertifyPosition, AlertifyService } from '../../admin/alertify.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductService {
-  constructor(private httpClientService: HttpClientService) {}
+  constructor(private httpClientService: HttpClientService, private alertify:AlertifyService) {}
 
   create(
     product: CreateProduct,
@@ -85,5 +87,37 @@ export class ProductService {
       controller: "products"
     }, id);
     await firstValueFrom(deleteObservable);
+  }
+
+  async readImages(id: string, successCallBack?: () => void): Promise<ListProductImage[]> {
+    const getObservable: Observable<ListProductImage[]> = this.httpClientService.get<ListProductImage[]>({
+      action: "getproductimages",
+      controller: "products"
+    }, id);
+    var images: ListProductImage[] = []
+    try {
+      images = await firstValueFrom(getObservable);
+    } catch (error) {
+      this.alertify.message("Resimler yüklenirken hata oluştu",{
+        messageType: AlertifyMessageType.Error,
+        position: AlertifyPosition.TopRight
+      })
+      
+    }finally{
+      successCallBack();
+    }
+    
+    
+    return images;
+  }
+
+  async deleteImage(id: string, imageId: string, successCallBack?: () => void) {
+    const deleteObservable = this.httpClientService.delete({
+      action: "deleteproductimage",
+      controller: "products",
+      queryString: `imageId=${imageId}`
+    }, id)
+    await firstValueFrom(deleteObservable);
+    successCallBack();
   }
 }

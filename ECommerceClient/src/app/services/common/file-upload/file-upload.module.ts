@@ -8,9 +8,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { DialogModule } from 'src/app/dialogs/dialog.module';
+import { FileUploadDialogComponent } from 'src/app/dialogs/file-upload-dialog/file-upload-dialog.component';
+import { MatDialogModule } from '@angular/material/dialog';
 @NgModule({
   declarations: [
     FileUploadComponent,
+    FileUploadDialogComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +22,7 @@ import { DialogModule } from 'src/app/dialogs/dialog.module';
     MatCardModule,
     MatButtonModule,
     MatIconModule,
-    DialogModule
+    MatDialogModule
   ],
   exports: [
     FileUploadComponent
