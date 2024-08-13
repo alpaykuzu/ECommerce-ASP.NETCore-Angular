@@ -63,3 +63,9 @@ C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Pr
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\MediatR.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.Security.Permissions.dll

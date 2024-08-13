@@ -3,108 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\contexts\\ecommerceapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\contexts\\ecommerceapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\\u0130dentity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\\u0130dentity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getallproduct\\getallproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\product\\getbyidproduct\\getbyidproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\productimagefile\\getproductimages\\getproductimagesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\uploadproductimage\\uploadproductimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\productimagefile\\removeproductimage\\removeproductimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\product\\removeproduct\\removeproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\\u0130dentity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\\u0130dentity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAEwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:39:27.928Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -140,303 +43,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\appsettings.json",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-07T16:09:04.478Z",
+              "Title": "20240813114154_mig_2.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:41:54.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProductCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:11.703Z"
+              "WhenOpened": "2024-08-13T11:37:27.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ECommerceAPIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:33:57.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateProductCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:20.367Z"
+              "WhenOpened": "2024-08-13T11:31:35.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RemoveProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:26.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RemoveProductCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:40.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\CreateProduct\\CreateProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:03.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAllProductQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:58:00.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAllProductQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:57:39.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetByIdProductQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:57:30.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetByIdProductQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:57:26.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetProductImagesQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:57:14.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetAllProductQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetAllProduct\\GetAllProductQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:53:13.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetProductImagesQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:57:10.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetByIdProductQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Product\\GetByIdProduct\\GetByIdProductQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:53:18.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetProductImagesQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\ProductImageFile\\GetProductImages\\GetProductImagesQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:52:56.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UploadProductImageCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:37.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UploadProductImageCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:32.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UploadProductImageCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\UploadProductImage\\UploadProductImageCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:26.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RemoveProductImageCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:20.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RemoveProductImageCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:16.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RemoveProductImageCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\ProductImageFile\\RemoveProductImage\\RemoveProductImageCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:08.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UpdateProductCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:51:01.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UpdateProductCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:56.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:48.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RemoveProductCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Product\\RemoveProduct\\RemoveProductCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:50:34.265Z"
+              "WhenOpened": "2024-08-13T11:28:50.318Z",
+              "EditorCaption": ""
             }
           ]
         }

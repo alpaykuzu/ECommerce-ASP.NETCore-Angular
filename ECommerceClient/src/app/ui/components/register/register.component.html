@@ -1,35 +1,117 @@
-<br>
-<br>    
+<br />
+<br />
 <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
-        <form>
-            <div class="form-group">
-                <label for="adSoyad">Ad Soyad</label>
-                <input type="text" class="form-control" id="adSoyad" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label for="kullaniciAdi">Kullanıcı Adı</label>
-                <input type="text" class="form-control" id="kullaniciAdi" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="sifre">Şifre</label>
-              <input type="password" class="form-control" id="sifre">
-            </div>
-            <div class="form-group">
-                <label for="sifreTekrar">Şifre Tekrar</label>
-                <input type="password" class="form-control" id="sifreTekrar">
-              </div>
-            <br>
-            <button type="submit" class="btn btn-primary">Kayıt Ol</button>
-          </form>
-    </div>
-    <div class="col-md-3"></div>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <form [formGroup]="frm" (ngSubmit)="onSubmit(frm.value)">
+      <div class="form-group">
+        <label for="adSoyad">Ad Soyad</label>
+        <input
+          type="text"
+          formControlName="adSoyad"
+          class="form-control"
+          id="adSoyad"
+          [ngClass]="{ 'is-invalid': submitted && component.adSoyad.errors }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.adSoyad.errors?.required"
+          >Lütfen ad soyadı boş geçmeyiniz.</small
+        >
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="
+            submitted &&
+            (component.adSoyad.errors?.maxlength ||
+              component.adSoyad.errors?.minlength)
+          "
+          >Lütfen ad soyadı 3 ile 50 karakter arasında giriniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="kullaniciAdi">Kullanıcı Adı</label>
+        <input
+          type="text"
+          formControlName="kullaniciAdi"
+          class="form-control"
+          id="kullaniciAdi"
+          [ngClass]="{
+            'is-invalid': submitted && component.kullaniciAdi.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.kullaniciAdi.errors?.required"
+          >Lütfen kullanıcı adını boş geçmeyiniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          formControlName="email"
+          class="form-control"
+          id="email"
+          aria-describedby="emailHelp"
+          [ngClass]="{
+            'is-invalid': submitted && component.email.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.email.errors?.required"
+          >Lütfen emaili boş geçmeyiniz.</small
+        >
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.email.errors?.email"
+          >Lütfen emaili doğru giriniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="sifre">Şifre</label>
+        <input
+          type="password"
+          formControlName="sifre"
+          class="form-control"
+          id="sifre"
+          [ngClass]="{
+            'is-invalid': submitted && component.sifre.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.sifre.errors?.required"
+          >Lütfen şifreyi boş geçmeyiniiz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="sifreTekrar">Şifre Tekrar</label>
+        <input
+          type="password"
+          formControlName="sifreTekrar"
+          class="form-control"
+          id="sifreTekrar"
+          [ngClass]="{
+            'is-invalid': submitted && component.sifreTekrar.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && frm.hasError('notSame')"
+          >Lütfen şifreyi aynı giriniz</small
+        >
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+    </form>
+  </div>
+  <div class="col-md-3"></div>
 </div>
