@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.Domain.Entities.İdentity
+namespace ECommerceAPI.Domain.Entities.Identity
 {
-    public class AppRole : IdentityRole<string>
+    public class AppUser : IdentityUser<string>
     {
+        public string NameSurname { get; set; }
     }
 }

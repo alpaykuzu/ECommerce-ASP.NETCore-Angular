@@ -1,0 +1,43 @@
+<br />
+<br />
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+      
+      <div class="form-group">
+        <label for="username">Kullanıcı Adı & Email</label>
+        <input
+          type="text"
+          class="form-control"
+          id="username"
+          #txtUsernameOrEmail
+        />
+        <!-- <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.username.errors?.required"
+          >Lütfen kullanıcı adını boş geçmeyiniz.</small
+        > -->
+      </div>
+      <div class="form-group">
+        <label for="password">Şifre</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          #txtPassword
+        />
+        <!-- <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.password.errors?.required"
+          >Lütfen şifreyi boş geçmeyiniiz.</small
+        > -->
+      </div>
+      
+      <br />
+      <button type="submit" class="btn btn-primary" (click)="login(txtUsernameOrEmail.value, txtPassword.value)">Giriş Yap</button>
+
+  </div>
+  <div class="col-md-3"></div>
+</div>

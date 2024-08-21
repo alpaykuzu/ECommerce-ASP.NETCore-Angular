@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\contexts\\ecommerceapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\contexts\\ecommerceapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB926919-629A-4178-B83D-4E5145DEFB1D}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9B0B6F6-9694-4F08-AED1-724FA9A51F5C}|Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\services\\token\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9B0B6F6-9694-4F08-AED1-724FA9A51F5C}|Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\services\\token\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\\u0130dentity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\\u0130dentity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\\u0130dentity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B8CF1A-D2DC-4BF4-9589-9788B9D80618}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\\u0130dentity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,68 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240813114154_mig_2.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Migrations\\20240813114154_mig_2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:41:54.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:37:27.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ECommerceAPIDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Contexts\\ECommerceAPIDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAABGAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:33:57.602Z",
+              "WhenOpened": "2024-08-21T18:39:26.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppRole.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:31:35.6Z",
+              "WhenOpened": "2024-08-21T18:37:44.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\\u0130dentity\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Title": "LoginUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:28:50.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T12:49:58.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\Services\\Token\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Infrastructure\\Services\\Token\\TokenHandler.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\Services\\Token\\TokenHandler.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Infrastructure\\Services\\Token\\TokenHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwCYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:31:07.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginUserCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T18:02:36.989Z"
             }
           ]
         }
