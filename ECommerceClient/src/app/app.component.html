@@ -33,10 +33,32 @@
               <a class="nav-link" href="#" routerLink="baskets">Sepet</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" routerLink="register">Kayıt Ol</a>
+              <a
+                class="nav-link"
+                href="#"
+                routerLink="register"
+                *ngIf="!authService.isAuthenticated"
+                >Kayıt Ol</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" routerLink="login">Giriş Yap</a>
+              <a
+                class="nav-link"
+                href="#"
+                routerLink="login"
+                *ngIf="!authService.isAuthenticated"
+                >Giriş Yap</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: red;cursor: pointer;"
+                (click)="signOut()"
+                *ngIf="authService.isAuthenticated"
+                >Çıkış Yap</a
+              >
             </li>
             <!-- <li class="nav-item dropdown">
                     <a
@@ -63,6 +85,7 @@
                 class="btn btn-outline-success"
                 type="submit"
                 routerLink="admin"
+                *ngIf="authService.isAuthenticated"
                 >Yönetim Paneli</a
               >
             </li>
