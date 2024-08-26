@@ -52,6 +52,10 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.GoogleLogin
                     var identityResult = await _userManager.CreateAsync(user);
                     result = identityResult.Succeeded;
                 }
+                if(user != null)
+                {
+                    result = true;
+                }
             }
 
             if (result)

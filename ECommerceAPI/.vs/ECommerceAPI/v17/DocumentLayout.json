@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\googlelogin\\googlelogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\googlelogin\\googlelogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\facebooklogin\\facebooklogincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97C7D7B-C6A3-4A54-818A-B0E38C4575D8}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\dtos\\facebook\\facebookuserinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\dtos\\facebook\\facebookuserinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\dtos\\facebook\\facebookuseraccesstokenvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\dtos\\facebook\\facebookuseraccesstokenvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\alpay\\onedrive\\masa\u00FCst\u00FC\\ecommerce-asp.netcore-angular\\ecommerceapi\\core\\ecommerceapi.application\\dtos\\facebook\\facebookaccesstokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F87B0E8-2C9F-4DDD-B122-B59D00C41C3B}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\dtos\\facebook\\facebookaccesstokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,112 +30,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Program.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "GoogleLoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T16:48:09.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ServiceRegistration.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:32:16.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FacebookLoginCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:31:16.616Z"
+              "WhenOpened": "2024-08-26T17:27:21.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FacebookLoginCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandRequest.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:30:38.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FacebookLoginCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandHandler.cs",
               "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandHandler.cs",
               "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\AppUser\\FacebookLogin\\FacebookLoginCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAWAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwD4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:29:56.347Z",
+              "WhenOpened": "2024-08-26T17:27:18.586Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:04:51.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FacebookUserInfoResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserInfoResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserInfoResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserInfoResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserInfoResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:29:17.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FacebookUserAccessTokenValidation.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserAccessTokenValidation.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserAccessTokenValidation.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserAccessTokenValidation.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookUserAccessTokenValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:28:54.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FacebookAccessTokenResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookAccessTokenResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookAccessTokenResponse.cs",
-              "ToolTip": "C:\\Users\\alpay\\OneDrive\\Masa\u00FCst\u00FC\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookAccessTokenResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\DTOs\\Facebook\\FacebookAccessTokenResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T15:28:25.03Z"
             }
           ]
         }

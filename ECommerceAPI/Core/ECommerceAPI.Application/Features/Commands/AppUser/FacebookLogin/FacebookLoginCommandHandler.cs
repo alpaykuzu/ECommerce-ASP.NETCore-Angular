@@ -60,6 +60,10 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.FacebookLogin
                         var identityResult = await _userManager.CreateAsync(user);
                         result = identityResult.Succeeded;
                     }
+                    if(user != null)
+                    {
+                        result = true;
+                    }
                 }
 
                 if (result)
