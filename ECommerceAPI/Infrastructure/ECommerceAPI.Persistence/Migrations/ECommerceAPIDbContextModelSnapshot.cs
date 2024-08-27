@@ -75,7 +75,7 @@ namespace ECommerceAPI.Persistence.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("File");
                 });
 
-            modelBuilder.Entity("ECommerceAPI.Domain.Entities.İdentity.AppRole", b =>
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.Identity.AppRole", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
@@ -101,7 +101,7 @@ namespace ECommerceAPI.Persistence.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
-            modelBuilder.Entity("ECommerceAPI.Domain.Entities.İdentity.AppUser", b =>
+            modelBuilder.Entity("ECommerceAPI.Domain.Entities.Identity.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
@@ -146,6 +146,12 @@ namespace ECommerceAPI.Persistence.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("RefreshTokenEndDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
@@ -395,7 +401,7 @@ namespace ECommerceAPI.Persistence.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppRole", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -404,7 +410,7 @@ namespace ECommerceAPI.Persistence.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppUser", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -413,7 +419,7 @@ namespace ECommerceAPI.Persistence.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppUser", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -422,13 +428,13 @@ namespace ECommerceAPI.Persistence.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppRole", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppUser", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -437,7 +443,7 @@ namespace ECommerceAPI.Persistence.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("ECommerceAPI.Domain.Entities.İdentity.AppUser", null)
+                    b.HasOne("ECommerceAPI.Domain.Entities.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

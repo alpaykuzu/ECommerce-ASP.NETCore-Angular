@@ -12,6 +12,7 @@ import { TokenResponse } from '../../../contracts/token/tokenResponse';
 import { AuthService } from '../../../services/common/auth.service';
 import { HttpClientService } from '../../../services/common/http-client.service';
 import { UserService } from '../../../services/common/models/user.service';
+import { UserAuthService } from 'src/app/services/common/models/user-auth.service';
 
 @Component({
   selector: 'app-login',
@@ -20,7 +21,7 @@ import { UserService } from '../../../services/common/models/user.service';
 })
 export class LoginComponent extends BaseComponent implements OnInit {
   constructor(
-    private userService: UserService,
+    private userAuthService: UserAuthService,
     spinner: NgxSpinnerService,
     private authService: AuthService,
     private activatedRoute: ActivatedRoute,
@@ -33,13 +34,13 @@ export class LoginComponent extends BaseComponent implements OnInit {
       this.showSpinner(SpinnerType.BallTrianglePath);
       switch (user.provider) {
         case 'GOOGLE':
-          await userService.googleLogin(user, () => {
+          await userAuthService.googleLogin(user, () => {
             this.authService.identityCheck();
             this.hideSpinner(SpinnerType.BallTrianglePath);
           });
           break;
         case 'FACEBOOK':
-          await userService.facebookLogin(user, () => {
+          await userAuthService.facebookLogin(user, () => {
             this.authService.identityCheck();
             this.hideSpinner(SpinnerType.BallTrianglePath);
           });
@@ -52,7 +53,7 @@ export class LoginComponent extends BaseComponent implements OnInit {
 
   async login(usernameOrEmail: string, password: string) {
     this.showSpinner(SpinnerType.BallTrianglePath);
-    await this.userService.login(usernameOrEmail, password, () => {
+    await this.userAuthService  .login(usernameOrEmail, password, () => {
       this.authService.identityCheck();
 
       this.activatedRoute.queryParams.subscribe((params) => {
