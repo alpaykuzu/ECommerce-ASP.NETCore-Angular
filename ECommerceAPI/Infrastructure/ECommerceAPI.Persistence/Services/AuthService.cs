@@ -68,7 +68,7 @@ namespace ECommerceAPI.Persistence.Services
                 await _userManager.AddLoginAsync(user, info); //AspNetUserLogins
 
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime, user);
-                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 15);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 300);
                 return token;
             }
             throw new Exception("Invalid external authentication.");
@@ -124,7 +124,7 @@ namespace ECommerceAPI.Persistence.Services
             if (result.Succeeded) //Authentication başarılı!
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime, user);
-                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 15);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 300);
                 return token;
             }
             throw new AuthenticationErrorException();
@@ -136,7 +136,7 @@ namespace ECommerceAPI.Persistence.Services
             if (user != null && user?.RefreshTokenEndDate > DateTime.UtcNow)
             {
                 Token token = _tokenHandler.CreateAccessToken(15, user);
-                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 15);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 300);
                 return token;
             }
             else

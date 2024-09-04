@@ -94,3 +94,5 @@ C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Pr
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.PostgreSQL.dll
 C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.SignalR.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.SignalR.pdb

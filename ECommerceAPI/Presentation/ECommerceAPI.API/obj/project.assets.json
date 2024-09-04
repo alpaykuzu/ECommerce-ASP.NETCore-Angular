@@ -2099,6 +2099,22 @@
         "runtime": {
           "bin/placeholder/ECommerceAPI.Persistence.dll": {}
         }
+      },
+      "ECommerceAPI.SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ECommerceAPI.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceAPI.SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceAPI.SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5717,6 +5733,11 @@
       "type": "project",
       "path": "../../Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
       "msbuildProject": "../../Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj"
+    },
+    "ECommerceAPI.SignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/ECommerceAPI.SignalR/ECommerceAPI.SignalR.csproj",
+      "msbuildProject": "../../Infrastructure/ECommerceAPI.SignalR/ECommerceAPI.SignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5724,6 +5745,7 @@
       "ECommerceAPI.Application >= 1.0.0",
       "ECommerceAPI.Infrastructure >= 1.0.0",
       "ECommerceAPI.Persistence >= 1.0.0",
+      "ECommerceAPI.SignalR >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.30",
       "Serilog >= 2.11.0",
@@ -5769,6 +5791,9 @@
             },
             "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
               "projectPath": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj"
+            },
+            "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.SignalR\\ECommerceAPI.SignalR.csproj": {
+              "projectPath": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.SignalR\\ECommerceAPI.SignalR.csproj"
             }
           }
         }

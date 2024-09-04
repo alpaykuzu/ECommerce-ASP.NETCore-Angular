@@ -2,17 +2,43 @@ import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 
+import { AlertifyMessageType, AlertifyPosition, AlertifyService } from 'src/app/services/admin/alertify.service';
+import { HubUrls } from '../../../constants/hub-urls';
+import { ReceiveFunctions } from '../../../constants/receive-functions';
+import { SignalRService } from 'src/app/services/common/signalR.service';
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent extends BaseComponent implements OnInit{
-  constructor(spinner:NgxSpinnerService){
+export class DashboardComponent extends BaseComponent implements OnInit {
+
+  constructor(private alertify: AlertifyService, spinner: NgxSpinnerService, private signalRService: SignalRService) {
     super(spinner)
+    signalRService.start(HubUrls.ProductHub)
   }
 
   ngOnInit(): void {
-    this.showSpinner(SpinnerType.BallTrianglePath,500)
+    this.signalRService.on(ReceiveFunctions.ProductAddedMessageReceiveFunction, message => {
+      this.alertify.message(message, {
+        messageType: AlertifyMessageType.Notify,
+        position: AlertifyPosition.TopRight
+      })
+    });
   }
+
+  m() {
+
+    this.alertify.message("Merhaba", {
+      messageType: AlertifyMessageType.Success,
+      delay: 5,
+      position: AlertifyPosition.TopRight
+    })
+  }
+
+  d() {
+    this.alertify.dismiss();
+  }
+
 }
