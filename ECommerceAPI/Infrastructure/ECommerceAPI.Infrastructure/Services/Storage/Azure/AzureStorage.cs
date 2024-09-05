@@ -1,5 +1,6 @@
-﻿using Azure.Storage.Blobs.Models;
-using Azure.Storage.Blobs;
+﻿using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using ECommerceAPI.Application.Abstractions.Storage.Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -7,7 +8,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ECommerceAPI.Application.Abstractions.Storage.Azure;
 
 namespace ECommerceAPI.Infrastructure.Services.Storage.Azure
 {

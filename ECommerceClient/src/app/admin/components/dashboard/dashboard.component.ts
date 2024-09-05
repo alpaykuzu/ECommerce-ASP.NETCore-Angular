@@ -5,7 +5,7 @@ import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { AlertifyMessageType, AlertifyPosition, AlertifyService } from 'src/app/services/admin/alertify.service';
 import { HubUrls } from '../../../constants/hub-urls';
 import { ReceiveFunctions } from '../../../constants/receive-functions';
-import { SignalRService } from 'src/app/services/common/signalR.service';
+import { SignalRService } from 'src/app/services/common/signalr.service';
 
 @Component({
   selector: 'app-dashboard',

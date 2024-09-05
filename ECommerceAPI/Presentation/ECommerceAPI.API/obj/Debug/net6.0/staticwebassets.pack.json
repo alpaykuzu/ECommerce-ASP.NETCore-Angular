@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\photo-images\\Ekran-goruntusu-2024-07-17-100121.png"
     },
     {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\photo-images\\indir-2.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\indir-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\photo-images\\indir.jpeg",
+      "PackagePath": "staticwebassets\\photo-images\\indir.jpeg"
+    },
+    {
       "Id": "C:\\Users\\alpay\\OneDrive\\Masaüstü\\ECommerce-ASP.NETCore-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png",
       "PackagePath": "staticwebassets\\resource\\files\\Ekran görüntüsü 2024-07-16 112150.png"
     },
