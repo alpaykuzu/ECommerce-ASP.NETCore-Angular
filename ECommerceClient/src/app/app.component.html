@@ -29,9 +29,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#" routerLink="products">Ürünler</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#" routerLink="baskets">Sepet</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -54,7 +54,7 @@
               <a
                 class="nav-link"
                 href="#"
-                style="color: red;cursor: pointer;"
+                style="color: red; cursor: pointer"
                 (click)="signOut()"
                 *ngIf="authService.isAuthenticated"
                 >Çıkış Yap</a
@@ -99,6 +99,16 @@
                   />
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form> -->
+          <div class="d-flex">
+            <button
+              class="btn btn-outline-success"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              type="submit"
+            >
+              Sepet
+            </button>
+          </div>
         </div>
       </div>
     </nav>
@@ -115,3 +125,5 @@
 <ngx-spinner type="ball-scale-multiple" size="default" name="s1"></ngx-spinner>
 <ngx-spinner type="pacman" size="default" name="s2"></ngx-spinner>
 <ngx-spinner type="ball-triangle-path" size="default" name="s3"></ngx-spinner>
+
+<app-baskets></app-baskets>
