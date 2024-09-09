@@ -103,7 +103,8 @@
             <button
               class="btn btn-outline-success"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#basketModal"
+              (click)="loadComponent()"
               type="submit"
             >
               Sepet
@@ -126,4 +127,8 @@
 <ngx-spinner type="pacman" size="default" name="s2"></ngx-spinner>
 <ngx-spinner type="ball-triangle-path" size="default" name="s3"></ngx-spinner>
 
-<app-baskets></app-baskets>
+<div class="modal fade" id="basketModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <ng-template appDynamicLoadComponent></ng-template>
+  </div>
+</div>
