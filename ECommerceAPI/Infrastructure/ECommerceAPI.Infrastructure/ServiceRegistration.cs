@@ -16,10 +16,11 @@ namespace ECommerceAPI.Infrastructure
 {
     public static class ServiceRegistration
     {
-        public static void AddInfrastructureServices(this IServiceCollection services)
+        public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
         {
-            services.AddScoped<IStorageService, StorageService>();
-            services.AddScoped<ITokenHandler, TokenHandler>();
+            serviceCollection.AddScoped<IStorageService, StorageService>();
+            serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
+            serviceCollection.AddScoped<IMailService, MailService>();
         }
         public static void AddStorage<T>(this IServiceCollection services) where T : Storage, IStorage
         {
