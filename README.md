@@ -26,7 +26,7 @@ This project demonstrates a real-world implementation of an e-commerce system us
 
 ## 🗂️ Project Structure
 
-```
+
 
 ECommerce-ASP.NETCore-Angular-main/
 ├── ECommerceAPI/               # ASP.NET Core backend
