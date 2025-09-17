@@ -1,7 +1,8 @@
 ```markdown
 # 🛒 ECommerce Full Stack Application 
 
-A modern, scalable, and extensible full-stack **E-Commerce platform** built with **ASP.NET Core 7.0 (Clean Architecture)** on the backend and **Angular 15** on the frontend.
+A modern, scalable, and extensible full-stack E-Commerce platform built with ASP.NET Core 7.0 (Clean Architecture)
+ on the backend and Angular 15 on the frontend.
 
 ## ✨ Project Overview
 
