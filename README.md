@@ -1,43 +1,64 @@
-```markdown
-# 🛒 ECommerce Full Stack Application 
+# 🛒 ECommerce Full Stack Application
 
-A modern, scalable, and extensible full-stack E-Commerce platform built with ASP.NET Core 7.0 (Clean Architecture)
- on the backend and Angular 15 on the frontend.
+A modern, scalable, and extensible full-stack E-Commerce platform built with **ASP.NET Core 7.0 (Onion Architecture)** on the backend and **Angular 15** on the frontend. This project is a robust, production-ready foundation for any e-commerce venture.
+
+---
 
 ## ✨ Project Overview
 
-This project demonstrates a real-world implementation of an e-commerce system using modern web technologies and best practices. It supports user authentication, product and category management, image/file storage, SignalR-based real-time updates, and JWT-based secure API access.
+This project showcases a real-world implementation of an e-commerce system using modern web technologies and best practices. It features a layered backend architecture designed for scalability and maintainability, decoupled from a sleek, responsive Angular frontend. The system supports a full range of e-commerce features, from user authentication to real-time order tracking.
 
-### 🔧 Tech Stack
+---
 
-| Layer              | Technology                            |
-|-------------------|----------------------------------------|
-| Frontend          | Angular 15, TypeScript, RxJS, SCSS     |
-| Backend API       | ASP.NET Core 7.0 (Clean Architecture)  |
-| Authentication    | ASP.NET Identity, JWT Bearer Tokens    |
-| Database          | PostgreSQL                             |
-| Realtime Support  | SignalR                                |
-| Logging           | Serilog + PostgreSQL                   |
-| File Storage      | Azure Blob / Local Storage             |
-| Validation        | FluentValidation                       |
-| DI & Configuration| Built-in ASP.NET Core DI, appsettings  |
+## 🔧 Tech Stack
+
+| Layer              | Technology                                 |
+| ------------------ | ------------------------------------------ |
+| **Frontend**       | Angular 15, TypeScript, RxJS, SCSS         |
+| **Backend API**    | ASP.NET Core 7.0 (Onion Architecture)      |
+| **Authentication** | ASP.NET Identity, JWT Bearer Tokens        |
+| **Database**       | PostgreSQL                                 |
+| **Realtime**       | SignalR                                    |
+| **Logging**        | Serilog + PostgreSQL + Seq                 |
+| **File Storage**   | Azure Blob Storage / Local Storage         |
+| **Validation**     | FluentValidation                           |
+| **DI & Config**    | Built-in ASP.NET Core DI, appsettings.json |
+
+---
+
+## 🧠 Architectural Highlights
+
+The backend is built on the **Onion Architecture**, a variation of Clean Architecture, which places the business logic and domain model at the core of the application.
+
+### Separation of Concerns
+
+* **Domain Layer**: Contains core business entities and interfaces, remaining completely independent.
+* **Application Layer**: Defines the business logic and use cases, implementing the **CQRS** pattern via **MediatR**.
+* **Infrastructure Layer**: Provides implementations for external services (e.g., Email, Authentication).
+* **Persistence Layer**: Handles all data access logic with repository pattern (read/write separation).
+* **Presentation Layer (API)**: The entry point of the application, responsible for handling HTTP requests and responses.
+
+This layered approach guarantees testability, flexibility, and decoupling.
 
 ---
 
 ## 🗂️ Project Structure
 
-
-
+```
 ECommerce-ASP.NETCore-Angular-main/
-├── ECommerceAPI/               # ASP.NET Core backend
-│   ├── Core/                   # Domain and Application layers
-│   ├── Infrastructure/         # Storage, Persistence, SignalR, Filters, Services
-│   ├── Presentation/           # API layer with Controllers, Configurations, Middleware
-│   └── ECommerceAPI.sln        # Solution file
-└── ECommerceClient/            # Angular frontend (v15)
-└── src/                    # Main frontend application code
-
-````
+├── ECommerceAPI/                 # ASP.NET Core backend
+│   ├── Core/                     # The core of the Onion (Domain & Application)
+│   │   ├── ECommerceAPI.Domain   # Business entities and contracts
+│   │   └── ECommerceAPI.Application # Business logic & CQRS with MediatR
+│   ├── Infrastructure/           # External service implementations
+│   │   ├── ECommerceAPI.Infrastructure # Services like email, JWT, and external auth
+│   │   ├── ECommerceAPI.Persistence # Database access layer
+│   │   └── ECommerceAPI.SignalR # Real-time communication services
+│   └── Presentation/             # The entry point
+│       └── ECommerceAPI.API      # Controllers, middleware, and startup configuration
+└── ECommerceClient/              # Angular frontend (v15)
+    └── src/                      # Main frontend application code
+```
 
 ---
 
@@ -45,152 +66,93 @@ ECommerce-ASP.NETCore-Angular-main/
 
 ### 🪰 Prerequisites
 
-- [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- Angular CLI: `npm install -g @angular/cli`
-- PostgreSQL server (locally or remote)
-- (Optional) Azure Blob Storage account if using AzureStorageService
+* .NET 7 SDK
+* Node.js (v16+ recommended)
+* Angular CLI: `npm install -g @angular/cli`
+* PostgreSQL server
+* (Optional) Azure Blob Storage account
 
----
-
-## 🔧 Backend Setup
-
-### 1. Navigate to Backend Project:
+### 🔧 Backend Setup
 
 ```bash
 cd ECommerceAPI/ECommerceAPI.API
-````
+```
 
-### 2. Update Configuration
+1. Update **appsettings.json**:
 
-Edit `appsettings.json` and `appsettings.Development.json` to provide:
+   * PostgreSQL connection string
+   * JWT Token settings (key, issuer, audience)
+   * File Storage (Local or Azure)
+   * Serilog PostgreSQL logging config
 
-* PostgreSQL connection string
-* JWT Token settings
-* Azure Blob Storage or Local settings
-* Serilog PostgreSQL connection
-
-### 3. Apply Migrations and Run:
+2. Apply migrations and run:
 
 ```bash
 dotnet ef database update
 dotnet run
 ```
 
-API will be available at: `https://localhost:5001`
+API available at: `https://localhost:5001`
 
----
-
-## 🌐 Frontend Setup
-
-### 1. Navigate to Angular Client
+### 🌐 Frontend Setup
 
 ```bash
 cd ECommerceClient
-```
-
-### 2. Install Dependencies
-
-```bash
 npm install
-```
-
-### 3. Run Development Server
-
-```bash
 ng serve
 ```
 
-The app will be available at: `http://localhost:4200`
+App available at: `http://localhost:4200`
 
 ---
 
 ## 🔒 Authentication & Authorization
 
-* Uses **ASP.NET Identity** for user management.
-* Token-based authentication with **JWT**.
-* Role-based authorization and custom claims.
-* Refresh tokens (if configured) for session renewal.
+* **ASP.NET Identity** for user management.
+* **JWT-based authentication** secures all API endpoints.
+* **Role-based authorization** (e.g., Admin for product management).
+* `IUserService` handles password resets & refresh tokens.
 
 ---
 
 ## 📸 File Upload Support
 
-* Pluggable file storage system.
-* Supports **LocalStorageService** and **AzureBlobStorageService**.
-* Easily switchable via `IStorageService` interface in Infrastructure layer.
+* Pluggable **file storage system**.
+* `IStorageService` abstracts file storage logic.
+* Switch between **Azure Blob Storage** or **LocalStorageService** easily.
 
 ---
 
 ## 🔄 Real-time Notifications (SignalR)
 
-* SignalR hub enabled for **order updates**, **stock changes**, etc.
-* Configure the hub route in `Startup.cs`.
-* Angular client connects using WebSocket via SignalR JavaScript client.
-
----
-
-## 📦 Package Scripts
-
-### Angular CLI commands
-
-* `ng build` – Build frontend
-* `ng test` – Run unit tests
-* `ng lint` – Lint the codebase
-* `ng generate` – Generate components/services/etc.
+* SignalR hubs: `ProductHub`, `OrderHub`.
+* Angular client connects via WebSockets for live updates.
 
 ---
 
 ## 📝 Logging
 
-* Integrated with **Serilog**
-* Logs stored in **PostgreSQL** via `Serilog.Sinks.PostgreSQL`
-* Custom `ColumnWriters` used for structured log fields
+* **Serilog** integrated with Console, File, PostgreSQL, and Seq.
+* `UsernameColumnWriter` enriches logs with user context.
+* Global error handling with `ConfigureExceptionHandlerExtension`.
 
 ---
 
 ## 🧰 Testing
 
-* Angular unit testing configured with Karma & Jasmine.
-* ASP.NET Core backend can be tested via xUnit/NUnit (not provided yet).
-* Consider writing integration tests for `ECommerceAPI.Application` layer.
+* **Frontend**: Karma & Jasmine for unit tests.
+* **Backend**: Supports unit & integration testing per layer.
+* Centralized **exception handling** ensures consistent error responses.
 
 ---
 
-## 📌 Future Enhancements
+## 📦 Services & Features
 
-* Payment Gateway integration (e.g., Stripe, PayPal)
-* Advanced filtering and search
-* Admin Dashboard and analytics
-* Multi-tenant support
-* Unit and integration test coverage
-
----
-
-## 🙌 Contributing
-
-Feel free to fork, clone, and extend this project. PRs are welcome!
+* **OrderService**: Order management, eager loading with related entities, paging.
+* **UserService**: User creation, refresh token management, secure password reset.
+* **BasketService**: Shopping cart operations integrated with orders.
+* **Hub Services**: `OrderHubService` & `ProductHubService` enable server-side push notifications.
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
----
-
-## 🔗 Useful Links
-
-* [ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/)
-* [Angular CLI Documentation](https://angular.io/cli)
-* [Serilog](https://serilog.net/)
-* [SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction)
-
----
-
-## 🧠 Author Note
-
-This project was built using clean architectural principles (Separation of Concerns, SOLID) to create an enterprise-grade foundation for scalable e-commerce platforms.
-
-```
-```
